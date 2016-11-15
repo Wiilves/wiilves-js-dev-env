@@ -235,7 +235,7 @@ Warning
 - Can be ignored 
 - Team must agree: Fix warnings
 
- Error 
+Error 
  - Breaks the build 
  - Cannot be ignored 
  - Team is forced to comply 
@@ -527,14 +527,14 @@ http://www.embeddedjs.com/
 ### Separating the UI from the API
 
 why ?
-1. Simple, low-risk, UI only deploys 
-2. Separates concerns 
-- Separate teams 
-- Less to understand 
-- Scale back-end separately 
-3. Cheap UI hosting 
-4. Serve UI via a content delivery network 
-5. Use the API tech you like 
+- Simple, low-risk, UI only deploys 
+- Separates concerns 
+1. Separate teams 
+2. Less to understand 
+3. Scale back-end separately 
+- Cheap UI hosting 
+- Serve UI via a content delivery network 
+- Use the API tech you like 
 
 Hosting providers 
 - AWS 
@@ -547,11 +547,11 @@ baseUrl.js for API
 
 Surge for UI (https://surge.sh/) (Static web publishing for Front-End Developers)
 
+### Automated deployment 
+
 - npm start       (development)
 - npm run build   (production build)
 - npm run deploy  (production deploy)
-
-### Automated deployment 
 
 ### Handling starter kit updates 
 - Yeoman 
@@ -567,8 +567,5 @@ Surge for UI (https://surge.sh/) (Static web publishing for Front-End Developers
 Find your perfect React starter project
 http://andrewhfarmer.com/starter-project/
 
-react slingshote
-
 Angular Seed projects
 https://github.com/gianarb/awesome-angularjs
-
